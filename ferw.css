@@ -1,6 +1,15 @@
-body{
-img{
-width: 500px;
-height:400px;
-}
-}
+.reg { 
+    width: 700px; 
+	height:450px;
+    background: transparent;
+ 
+; text-align:center
+ } 
+ .reg2{ 
+    width: 500px; 
+	height:450px;
+    background: black;
+	margin:right;
+ 
+; text-align:center
+ } 
