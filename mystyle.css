@@ -393,7 +393,17 @@ body, html{
 	
 }
 
-
+.foc {
+	width: 380px; 
+	height:300px;
+	cursor:pointer; 
+	display:inline;
+	}
+	.foc:focus {
+	width: 760px;
+	height:600px; 
+	z-index: 100;
+	}
 
 
 
