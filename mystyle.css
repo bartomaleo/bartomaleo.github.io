@@ -29,6 +29,37 @@ width:600px;
  } 
 
 
+
+.china:hover {
+ 
+color:white;
+
+
+}
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{
     margin:0;
     padding:0;
@@ -105,31 +136,6 @@ header .stuts span {
 	float: left;
 	display: block;
 }
-.china:hover {
- 
-color:white;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 span.cap {
     display:none;
 }
@@ -319,81 +325,101 @@ span#slide5:target ~ ul.slider li.lArrow a,
 span#slide5:target ~ ul.slider li.rArrow a {z-index:10}
 span#slide5:target ~ ul.slider li.rArrow .a6 {z-index:100}
 span#slide5:target ~ ul.slider li.lArrow .a4 {z-index:100}
-.notebook,
-.notebook .tabs,
-.notebook .pages,
-.notebook .page {
- margin: 0;
- padding: 0;
-  
+
+body, html{
+	
+	margin:0;
+	font:1em "Open Sans", sans-serif;
+	
+}
+.content {
+	
+	padding:30px;
+	
+}
+.nav-main{
+	width:100%;
+	background-color:#222;
+	height:70px;
+	color:#fff;
+	
 }
 
-.notebook .tabs, .notebook .pages {
- list-style: none;
- overflow: hidden;
-
+.dropbtn {
+    background-color: 	#FF00FF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	margin:17;
 }
 
-.notebook .tabs li {
- float: left;
- width:13%;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-.notebook .pages {
-    clear: both;
-
-}
-.notebook .tabs {
- border-left: 2px solid blue;
-
-}
-
-.notebook .tabs li {
- border:2px solid blue;
-
-
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.notebook .pages {
- border: 2px solid blue;
-
-}
-.notebook .tabs {
- font-family: Georgia;
- font-size: 12px;
- line-height: 30px;
- height: 30px;
- 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.notebook .tabs li {
- background: #eee;
- padding: 0 10px;
- height: 30px;
- background: gold;
+.dropdown-content a:hover {background-color: 	#FF00FF
 }
 
-.notebook .tabs a {
- text-decoration: none;
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
+.dropdown:hover .dropbtn {
+    background-color: 	#00FFFF;
+}
+.nav-main{
+	width:100%;
+	background-color:#222;
+	height:120px;
+	color:#fff;
+	
 }
 
 
-.notebook .tabs li:hover {
- background: #00FFFF;
-}
-#notebook1 .pages, #notebook1 .page {
- 
-}
-.foc {
-	width: 380px; 
-	height:300px;
-	cursor:pointer; 
 
-	}
-	.foc:focus {
-	width: 760px;
-    height:600px;	
-	z-index: 100;
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
